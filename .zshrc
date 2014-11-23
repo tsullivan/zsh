@@ -1,11 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Git prompt
-# ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
-source ~/.zsh/git-prompt/zshrc.sh
-PROMPT='%n@%B%m%~%b$(git_super_status) %# '
-
 # Use case-sensitive completion.
 CASE_SENSITIVE="true"
 
@@ -99,3 +94,8 @@ CLICOLOR=1
 LSCOLORS=ExFxBxDxCxegedabagacad
 compinit
 promptinit
+
+# Git prompt
+# ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
+source ~/.zsh/git-prompt/zshrc.sh
+PROMPT='%n@%B%m%~%b$(git_super_status) %# '
