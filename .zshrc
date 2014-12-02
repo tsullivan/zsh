@@ -73,14 +73,16 @@ autoload -U compinit promptinit
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
 
-export PATH="node_modules/.bin:~/node_modules/.bin:~/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="node_modules/.bin:$HOME/node_modules/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export MANPATH="/usr/local/man:$MANPATH"
 
 export HISTSIZE=20000
 export SAVEHIST=20000
-export HISTFILE=~/.history
+export HISTFILE=$HOME/.history
 export WORDCHARS="*?_[]~&;:!#$%^(){}<>"
 export PAGER=cat
+
+export SELENIUM_JAR=/usr/bin/selenium-server-standalone.jar
 
 # Keybindings
 zle -N up-line-or-beginning-search
