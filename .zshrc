@@ -99,6 +99,7 @@ compinit
 promptinit
 
 # Git prompt
+# git clone https://github.com/olivierverdier/zsh-git-prompt.git .zsh/git-prompt
 # ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
 source ~/.zsh/git-prompt/zshrc.sh
 PROMPT='%n@%B%m%~%b$(git_super_status) %# '
