@@ -39,7 +39,7 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras node npm zsh-syntax-highlighting meteor)
+plugins=(git git-extras node npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -64,6 +64,7 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -104,3 +105,6 @@ promptinit
 # ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
 source ~/.zsh/git-prompt/zshrc.sh
 PROMPT='%n@%B%m%~%b$(git_super_status) %# '
+
+# This used to work as a plugin?
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
