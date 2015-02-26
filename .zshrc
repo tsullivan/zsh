@@ -69,6 +69,7 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias less="/usr/share/vim/vim73/macros/less.sh"
+alias gmd="git missing develop"
 
 autoload -U compinit promptinit
 autoload -U up-line-or-beginning-search
