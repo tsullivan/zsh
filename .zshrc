@@ -72,6 +72,10 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 alias less="/usr/share/vim/vim73/macros/less.sh"
 alias gmd="git missing develop"
 
+extract_aac_from_youtube() {
+	ffmpeg -i $1 -vn -acodec copy $1.m4a
+}
+
 autoload -U compinit promptinit
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
@@ -83,6 +87,7 @@ export HISTSIZE=20000
 export SAVEHIST=20000
 export HISTFILE=$HOME/.history
 export WORDCHARS="*?_[]~&;:!#$%^(){}<>"
+export MANPAGER=/usr/bin/less
 export PAGER=cat
 
 export SELENIUM_JAR=/usr/bin/selenium-server-standalone.jar
