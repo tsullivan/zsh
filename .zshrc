@@ -90,7 +90,7 @@ export WORDCHARS="*?_[]~&;:!#$%^(){}<>"
 export MANPAGER=/usr/bin/less
 export PAGER=cat
 
-export SELENIUM_JAR=/usr/bin/selenium-server-standalone.jar
+export SELENIUM_JAR=/usr/local/bin/selenium-server-standalone.jar
 
 # Keybindings
 zle -N up-line-or-beginning-search
