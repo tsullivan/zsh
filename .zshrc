@@ -92,6 +92,10 @@ export PAGER=cat
 
 export SELENIUM_JAR=/usr/local/bin/selenium-server-standalone.jar
 
+# go
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin
+
 # Keybindings
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
