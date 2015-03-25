@@ -70,6 +70,7 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias less="/usr/share/vim/vim73/macros/less.sh"
+alias gmm="git missing master"
 alias gmd="git missing develop"
 
 extract_aac_from_youtube() {
