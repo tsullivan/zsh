@@ -81,7 +81,7 @@ autoload -U compinit promptinit
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
 
-export PATH="node_modules/.bin:$HOME/node_modules/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export MANPATH="/usr/local/man:$MANPATH"
 
 export HISTSIZE=20000
