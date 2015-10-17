@@ -70,9 +70,9 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias less="/usr/share/vim/vim73/macros/less.sh"
-alias gbv="gb -vv"
 alias kbn="cd ~/code/kibana"
 alias mvl="cd ~/code/marvel"
+alias indices="curl 'localhost:9200/_cat/indices?v'"
 
 extract_aac_from_youtube() {
 	ffmpeg -i $1 -vn -acodec copy $1.m4a
