@@ -79,8 +79,6 @@ extract_aac_from_youtube() {
 }
 
 autoload -U compinit promptinit
-autoload -U up-line-or-beginning-search
-autoload -U down-line-or-beginning-search
 
 export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export MANPATH="/usr/local/man:$MANPATH"
@@ -97,13 +95,6 @@ export SELENIUM_JAR=/usr/local/bin/selenium-server-standalone.jar
 # go
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
-
-# Keybindings
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-
-bindkey "^[[A" up-line-or-beginning-search # Up
-bindkey "^[[B" down-line-or-beginning-search # Down
 
 # Prompt
 CLICOLOR=1
