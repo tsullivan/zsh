@@ -109,6 +109,7 @@ source ~/.zsh/git-prompt/zshrc.sh
 PROMPT='%n@%B%m%~%b$(git_super_status) %# '
 
 # This used to work as a plugin?
+fpath=(/usr/local/share/zsh-completions $fpath)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export NVM_DIR="$HOME/.nvm"
