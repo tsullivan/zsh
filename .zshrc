@@ -21,7 +21,8 @@ source $ZSH/oh-my-zsh.sh
 # Init git-prompt
 source ~/.zsh/git-prompt/zshrc.sh
 
-autoload -U compinit promptinit
+autoload -U +X compinit && compinit
+autoload -U +X promptinit && promptinit
 
 # Environment variables
 export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -41,10 +42,7 @@ alias kbn="cd ~/code/kibana"
 alias mvl="cd ~/code/marvel"
 
 # Prompt
-CLICOLOR=1
 LSCOLORS=ExFxBxDxCxegedabagacad
-compinit
-promptinit
 
 # Git prompt
 # ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
