@@ -67,3 +67,6 @@ bindkey -M emacs '^N' history-substring-search-down
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+# FZF
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
