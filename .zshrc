@@ -45,7 +45,7 @@ alias mvl="cd ~/code/marvel"
 LSCOLORS=ExFxBxDxCxegedabagacad
 
 # Git prompt
-# ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
+ZSH_THEME_GIT_PROMPT_NOCACHE=1 # disable status caching
 PROMPT='%n@%B%m%~%b$(git_super_status) %# '
 
 # zsh-history-substring-search
