@@ -39,7 +39,8 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # Aliases
 alias less="/usr/share/vim/vim73/macros/less.sh"
 alias kbn="cd ~/code/kibana"
-alias mvl="cd ~/code/marvel"
+alias mvl="cd ~/code/x-plugins/kibana/marvel"
+alias xpl="cd ~/code/x-plugins"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
