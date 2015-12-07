@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # Plugins
-plugins=(git git-extras node)
+plugins=(git node)
 # order of these matters
 plugins+=(zsh-completions zsh-syntax-highlighting zsh-history-substring-search)
 
