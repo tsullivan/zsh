@@ -37,10 +37,13 @@ export PAGER=cat
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
 # Aliases
+alias x=gitx
+alias v=gvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
 alias kbn="cd ~/code/kibana"
 alias mvl="cd ~/code/x-plugins/kibana/marvel"
 alias xpl="cd ~/code/x-plugins"
+alias gs1ns='git show -1 --name-status'
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
