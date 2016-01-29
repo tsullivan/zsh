@@ -35,6 +35,7 @@ export MANPAGER=/usr/bin/less
 export PAGER=cat
 # export SELENIUM_JAR=/usr/local/bin/selenium-server-standalone.jar
 export SSH_KEY_PATH="~/.ssh/id_rsa"
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Aliases
 alias x=gitx
