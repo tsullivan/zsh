@@ -41,10 +41,11 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 alias x=gitx
 alias v=gvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
+
 alias kbn="cd ~/code/kibana"
-alias mvl="cd ~/code/x-plugins/kibana/marvel"
 alias xpl="cd ~/code/x-plugins"
-alias gs1ns='git show -1 --name-status'
+alias mon="cd ~/code/x-plugins/kibana/monitoring"
+alias mvl="cd ~/code/x-plugins/kibana/marvel"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
