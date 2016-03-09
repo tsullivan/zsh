@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # Plugins
-plugins=(git node)
+plugins=(git node fasd)
 # order of these matters
 plugins+=(zsh-completions zsh-syntax-highlighting zsh-history-substring-search)
 
@@ -41,11 +41,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 alias x=gitx
 alias v=gvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
-
-alias kbn="cd ~/code/kibana"
-alias xpl="cd ~/code/x-plugins"
-alias mon="cd ~/code/x-plugins/kibana/monitoring"
-alias mvl="cd ~/code/x-plugins/kibana/marvel"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
