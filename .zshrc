@@ -44,6 +44,7 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 alias x=gitx
 alias v=gvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
+alias gulp="./node_modules/.bin/gulp"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
