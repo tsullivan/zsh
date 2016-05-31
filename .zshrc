@@ -37,6 +37,10 @@ export PAGER=cat
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
+# Go
+export GOPATH="$HOME/work"
+export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
+
 # Aliases
 alias x=gitx
 alias v=gvim
