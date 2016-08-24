@@ -46,6 +46,16 @@ alias v=gvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
 alias gulp="./node_modules/.bin/gulp"
 
+# Zooom around
+alias kbn="cd ~/code/kibana"
+alias kbn4="cd ~/code/kibana-4.x"
+alias xpl="cd ~/code/x-plugins/kibana"
+alias xpl2="cd ~/code/x-plugins-2.x/kibana"
+
+# Dump things
+alias prunestall="npm prune && npm install"
+alias prunestallsky="npm prune && npm install && npm install husky"
+
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
 
