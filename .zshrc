@@ -45,9 +45,8 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 # Aliases
 alias x=gitx
-alias v=gvim
+alias vim=nvim
 alias less="/usr/share/vim/vim73/macros/less.sh"
-alias gulp="./node_modules/.bin/gulp"
 
 # Zooom around
 alias kbn="cd ~/code/kibana"
@@ -56,6 +55,7 @@ alias xpl="cd ~/code/x-plugins/kibana"
 alias xpl2="cd ~/code/x-plugins-2.x/kibana"
 
 # Dump things
+alias gitsync='git fetch upstream && git pull --rebase upstream $(git_current_branch)'
 alias prunestall="npm prune && npm install"
 alias prunestallsky="npm prune && npm install && npm install husky"
 
