@@ -46,7 +46,6 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 # Aliases
 alias x=gitx
 alias vim=nvim
-alias less="/usr/share/vim/vim73/macros/less.sh"
 
 # Zooom around
 alias kbn="cd ~/code/kibana"
