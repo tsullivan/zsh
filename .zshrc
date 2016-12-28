@@ -45,13 +45,12 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 # Aliases
 alias x=gitx
-alias vim=nvim
+alias larth="ls -larth"
 
 # Zooom around
 alias kbn="cd ~/code/kibana"
 alias kbn4="cd ~/code/kibana-4.x"
-alias xpl="cd ~/code/x-plugins/kibana"
-alias xpl2="cd ~/code/x-plugins-2.x/kibana"
+alias xpl="cd ~/code/elasticsearch-extra/x-pack/kibana"
 
 # Dump things
 alias gitsync='git fetch upstream && git pull --rebase upstream $(git_current_branch)'
@@ -79,6 +78,9 @@ bindkey '^[[B' history-substring-search-down
 # bind P and N for EMACS mode
 bindkey -M emacs '^P' history-substring-search-up
 bindkey -M emacs '^N' history-substring-search-down
+
+# env vars for applications
+source ~/.env.sh
 
 # NVM / AVN
 export NVM_DIR="$HOME/.nvm"
