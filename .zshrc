@@ -48,7 +48,6 @@ export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
 
 # Aliases
 alias x=gitx
-alias less="/usr/share/vim/vim73/macros/less.sh"
 alias larth="ls -larth"
 
 # Zooom around
