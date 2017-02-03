@@ -39,9 +39,6 @@ export PAGER=cat
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-# Elasticsearch
-export ES_HEAP_SIZE=1g
-
 # Go
 export GOPATH="$HOME/work"
 export PATH="$PATH:/usr/local/go/bin:$GOPATH/bin"
