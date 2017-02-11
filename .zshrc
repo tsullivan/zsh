@@ -49,8 +49,7 @@ alias larth="ls -larth"
 
 # Zooom around
 alias kbn="cd ~/code/kibana"
-alias kbn4="cd ~/code/kibana-4.x"
-alias xpl="cd ~/code/elasticsearch-extra/x-pack/kibana"
+alias xpk="cd ~/code/x-pack-kibana"
 
 # Dump things
 alias gitsync='git fetch upstream && git pull --rebase upstream $(git_current_branch)'
