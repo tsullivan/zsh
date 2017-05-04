@@ -54,7 +54,6 @@ alias xpk="cd ~/code/x-pack-kibana"
 # Dump things
 alias gitsync='git fetch upstream && git pull --rebase upstream $(git_current_branch)'
 alias prunestall="npm prune && npm install"
-alias prunestallsky="npm prune && npm install && npm install husky"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
