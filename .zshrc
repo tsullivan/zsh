@@ -87,10 +87,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # FZF
 export FZF_DEFAULT_COMMAND='ag -g ""'
-export FZF_DEFAULT_COMMAND='
-  (git ls-tree -r --name-only HEAD ||
-   find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
-      sed s/^..//) 2> /dev/null'
+export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
+export FZF_TMUX=1
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
