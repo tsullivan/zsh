@@ -97,3 +97,7 @@ export FZF_TMUX=1
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [ -s "/Users/tsullivan/.jabba/jabba.sh" ] && source "/Users/tsullivan/.jabba/jabba.sh"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/tsullivan/.sdkman"
+[[ -s "/Users/tsullivan/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/tsullivan/.sdkman/bin/sdkman-init.sh"
