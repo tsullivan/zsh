@@ -51,11 +51,12 @@ alias larth="ls -larth"
 alias kbn="cd ~/code/kibana"
 alias xpk="cd ~/code/x-pack-kibana"
 alias xpke="cd ~/code/elasticsearch-extra/x-pack-elasticsearch"
+alias es="cd ~/code/elasticsearch"
 alias scr="cd ~/scripts"
 
 # Dump things
 alias gitsync='git fetch upstream && git pull --rebase upstream $(git_current_branch)'
-alias prunestall="npm prune && npm install"
+alias prunestall="trash node_modules && rm yarn.lock && yarn"
 
 # Prompt
 LSCOLORS=ExFxBxDxCxegedabagacad
